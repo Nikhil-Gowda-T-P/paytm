@@ -2,7 +2,7 @@
 // backend/db.js
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://nikhilgowda13121:fRAkAsSOtY1GrtNN@cluster1.jj29t4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1");
+mongoose.connect("mongodb_connection_url");
 console.log("connected to mongodb")
 
 // Create a Schema for Users
